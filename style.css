@@ -1,0 +1,56 @@
+body {
+    margin: 0
+}
+
+.icon-bar {
+    width: 4%;
+    background-color: rgb(37, 35, 35);
+    
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding-top: 34px;
+    padding-bottom: 35px;
+    transition: all 0.2s ease;
+    color: white;
+    font-size: 20px;
+}
+
+.icon-bar b {
+    display: block;
+    text-align: center;
+    
+    
+    color: red;
+    font-size: 12px;
+}
+
+.icon-bar a:hover {
+    color: red;
+}
+.icon-bar a:hover i {
+    display: none;
+}
+
+.icon-bar i:hover {
+    display: none;
+}
+
+.icon-bar :hover b {
+    display: block;
+  
+}
+
+.icon-bar b {
+    padding: 5px 0;
+    display: none;
+}
+
+
+
+
+.active {
+    background-color: black;
+}
